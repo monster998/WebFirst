@@ -1,5 +1,18 @@
-strong {color: red;}
-/*.carrot {color: orange;}*/
-.spinach {color: green;}
-#first {font-style: italic;}
+/*** CSS 手册: 颜色页面 ***/
+
+/* 页面 字体 */
+body {font: 16px "Comic Sans MS", cursive;background: url("Blue-rule.png");}
+
+/* 段落 */
 p {color: blue;}
+p::before{content:url("Yellow-pin.png");};
+#first {font-style: italic;}
+
+/* 首字母 */
+strong {
+  color: red;
+  background-color: #ddf;
+  font: 200% serif;
+  }
+
+.carrot {color: red;}
