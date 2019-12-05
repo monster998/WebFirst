@@ -7,3 +7,7 @@ p.numbered:before {
   font-weight: bold;
 }
 h3 {border-top: 1px solid gray;}
+ul,#numbered {
+  border: 1em solid #69b;
+  padding-right:1em;
+}
